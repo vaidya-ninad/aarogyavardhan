@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aarogyavardhan</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <h1 style="text-align: center; margin: 40px">Assesment of Acute Rhinosinusitis</h1>
+    <div class="container border rounded">
+        <div class="form-group">
+            <label for="age-group-select">Select Age Group</label>
+            <select class="form-control" id="age-group-select">
+                <option value="1">3 to 14</option>
+                <option value="0">15 to 44</option>
+                <option value="-1">Above 45</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="cough-category">Cough?</label>
+            <select class="form-control" id="cough-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="stuffy-nose-category">Stuffy Nose?</label>
+            <select class="form-control" id="stuffy-nose-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="temperature-category">Temperature > 38°C (100.4°F)?</label>
+            <select class="form-control" id="temperature-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="fever-category">Fever in last 24 hours?</label>
+            <select class="form-control" id="fever-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="symptoms-category">Duration of Symptoms</label>
+            <select class="form-control" id="symptoms-category">
+                <option value="1">Rapid onset less than 3 days</option>
+                <option value="0">7 days or less and grasually decreasing</option>
+                <option value="-1">7 days or less & grasually increasing</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="headache-category">Headache?</label>
+            <select class="form-control" id="headache-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="sneezing-category">Sneezing?</label>
+            <select class="form-control" id="sneezing-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="lymph-nodes-category">Swollen or <em>tender cervical lymph nodes</em>?</label>
+            <select class="form-control" id="lymph-nodes-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="tonsils-category">Swelling on tonsils or exudate/purulance?</label>
+            <select class="form-control" id="tonsils-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="inflam-category">Very inflammed tonsils?</label>
+            <select class="form-control" id="inflam-category">
+                <option value="1">Yes</option>
+                <option value="0">No</option>
+            </select>
+        </div>
+        <div class="form-group text-center">
+            <button type="submit" class="btn btn-primary" style="">Analyze</button>
+        </div>
+        </form>
+    </div>
+</body>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</html>
