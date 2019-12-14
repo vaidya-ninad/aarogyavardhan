@@ -12,47 +12,47 @@
 <body>
     <h1 style="text-align: center; margin: 20px">Differentiator</h1>
     <h2 style="text-align: center; margin: 30px">Assesment of Acute Rhinosinusitis</h2>
-    <form name='assessment-form' id='assessment-form' method="POST" data-netlify="true">
+    <form id='assessment-form' method="POST" data-netlify="true">
         <div class="container border rounded">
             <div class="form-group">
-                <label name="age-group-select" for="age-group-select">Select Age Group</label>
-                <select class="form-control" id="age-group-select">
+                <label for="age-group-select">Select Age Group</label>
+                <select name="age-group-select" class="form-control" id="age-group-select">
                     <option value="1">3 to 14</option>
                     <option value="0">15 to 44</option>
                     <option value="-1">Above 45</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name=for="cough-category">Cough?</label>
-                <select class="form-control" id="cough-category">
+                <label>Cough?</label>
+                <select name=for="cough-category" class="form-control" id="cough-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name="stuffy-nose-category" for="stuffy-nose-category">Stuffy Nose?</label>
-                <select class="form-control" id="stuffy-nose-category">
+                <label for="stuffy-nose-category">Stuffy Nose?</label>
+                <select name="stuffy-nose-category" class="form-control" id="stuffy-nose-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name="temperature-category" for="temperature-category">Temperature > 38°C (100.4°F)?</label>
-                <select class="form-control" id="temperature-category">
+                <label for="temperature-category">Temperature > 38°C (100.4°F)?</label>
+                <select name="temperature-category" class="form-control" id="temperature-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name="fever-category" for="fever-category">Fever in last 24 hours?</label>
-                <select class="form-control" id="fever-category">
+                <label for="fever-category">Fever in last 24 hours?</label>
+                <select name="fever-category" class="form-control" id="fever-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>name=
             </div>
             <div class="form-group">
-                <label name="symptoms-category" for="symptoms-category">Duration of Symptoms</label>
-                <select class="form-control" id="symptoms-category">
+                <label for="symptoms-category">Duration of Symptoms</label>
+                <select name="symptoms-category" class="form-control" id="symptoms-category">
                     <option value="0">Rapid onset less than 3 days</option>
                     <option value="1">7 days or less & grasually decreasing</option>
                     <option value="2">7 days or less & grasually increasing</option>
@@ -60,37 +60,36 @@
                 </select>
             </div>
             <div class="form-group">
-                <label name="headache-category" for="headache-category">Headache?</label>
-                <select class="form-control" id="headache-category">
+                <label for="headache-category">Headache?</label>
+                <select name="headache-category" class="form-control" id="headache-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name="sneezing-category" for="sneezing-category">Sneezing?</label>
-                <select class="form-control" id="sneezing-category">
+                <label for="sneezing-category">Sneezing?</label>
+                <select name="sneezing-category" class="form-control" id="sneezing-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name="lymph-nodes-category" for="lymph-nodes-category">Swollen or <em>tender cervical lymph
-                        nodes</em>?</label>
-                <select class="form-control" id="lymph-nodes-category">
+                <label for="lymph-nodes-category">Swollen or <em>tender cervical lymph nodes</em>?</label>
+                <select name="lymph-nodes-category" class="form-control" id="lymph-nodes-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name="tonsils-category" for="tonsils-category">Swelling on tonsils or exudate/purulance?</label>
-                <select class="form-control" id="tonsils-category">
+                <label for="tonsils-category">Swelling on tonsils or exudate/purulance?</label>
+                <select name="tonsils-category" class="form-control" id="tonsils-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
             </div>
             <div class="form-group">
-                <label name="inflam-category" for="inflam-category">Very inflammed tonsils?</label>
-                <select class="form-control" id="inflam-category">
+                <label for="inflam-category">Very inflammed tonsils?</label>
+                <select name="inflam-category" class="form-control" id="inflam-category">
                     <option value="0">No</option>
                     <option value="1">Yes</option>
                 </select>
