@@ -11,12 +11,12 @@
 
 <body>
     <h1 style="text-align: center; margin: 20px">Differentiator</h1>
-    <h2 style="text-align: center; margin: 30px">Assesment of Acute Rhinosinusitis</h2>
+    <h2 style="text-align: center; margin: 30px">Assesment of Acute URTI</h2>
     <form id='assessment-form' method="POST" data-netlify="true">
         <div class="container border rounded">
             <div class="form-group">
-                <label for="email-id">Email ID of the Consultant</label>
-                <input type="email" name="email-id" class="form-control" required>
+                <label for="consultant-name">Name of the Consultant</label>
+                <input type="text" name="consultant-name" class="form-control" required>
                 <label for="name">Name of the Patient</label>
                 <input type="text" name="name" class="form-control" required>
                 <label for="mb-no">Mobile number of the Patient</label>
@@ -166,16 +166,6 @@
             "Status is:" + '\n');
         results_block.innerText = output_text;
         final_status.innerText = status;
-
-
-        // console.log("Hi");
-        // alert("Fever pain score is " + fever_pain_score + '\n' +
-        // "Mistik score is " + mistik_score + '\n' +
-        // "Modified centor score is " + modified_centor + '\n' +
-        // "Status is " + status);
-        // var txt = document.getElementById("output-txt");
-        // txt.innerHTML = "updated";
-        // txt.innerHTML = "updated";
     }
 
 </script>
